@@ -1,57 +1,137 @@
-# 🖥️ Site Collabo - Projet HTML & CSS
+🖥️ Site Collabo - Projet HTML & CSS
 
-## 📝 Description
+📝 Description
 
-Ce projet collaboratif consiste à réaliser une **landing page statique** pour un site e-commerce fictif spécialisé dans la **décoration intérieure**.
+**Site Collabo** est un projet collaboratif visant à créer une **landing page statique** pour un **site e-commerce fictif** spécialisé dans la décoration intérieure.
 
-Chaque membre de l’équipe a été responsable d’une **section spécifique de la page**, en respectant une **arborescence commune**, des **bonnes pratiques Git**, et une **cohérence visuelle** sur l'ensemble du site.
+L’objectif principal est double :
 
-Le projet a été réalisé **uniquement avec HTML et CSS**, sans aucun framework externe. L’objectif principal est de **mettre en pratique la collaboration en équipe** via Git et GitHub, tout en renforçant les bases de l’intégration web.
+1. **Renforcer les compétences en intégration web (HTML & CSS)** sans framework externe.
+2. **Maîtriser la collaboration en équipe via Git et GitHub**, avec une organisation professionnelle (branche, pull request, code review).
 
+---
 
-## 👥 Équipes
+## 👥 Équipe & Responsabilités
 
-* **hackusman** : Intégration finale, structure générale du projet, gestion de version Git
-* **John98997615** : Entête du site (*Header*)
-* **Corn7nelio** : Section *Shop Home Must-Haves*
-* **cedric-228** : Section *Smart Solutions For Every Room* et *What Our Essentials Are Special?*
-* **sebastienleAKPOTO** : Section *Find Your Perfect Home Upgrade*
-* **Amiir22-24** : Pied de page (*Footer*)
+| Membre                | GitHub                                                     | Responsabilité                                           |
+| --------------------- | ---------------------------------------------------------- | -------------------------------------------------------- |
+| **hackusman**         | [@hackusman](https://github.com/hackusman)                 | Structure générale, intégration finale, gestion Git      |
+| **John98997615**      | [@John98997615](https://github.com/John98997615)           | Section : **Header**                                     |
+| **Corn7nelio**        | [@Corn7nelio](https://github.com/Corn7nelio)               | Section : **Shop Home Must-Haves**                       |
+| **cedric-228**        | [@cedric-228](https://github.com/cedric-228)               | Sections : **Smart Solutions** & **Essentials Specials** |
+| **sebastienleAKPOTO** | [@sebastienleAKPOTO](https://github.com/sebastienleAKPOTO) | Section : **Find Your Perfect Home Upgrade**             |
+| **Amiir22-24**        | [@Amiir22-24](https://github.com/Amiir22-24)               | Section : **Footer**                                     |
 
-
-## 🚀 Lancer le projet
-
-Pour récupérer le projet en local, exécutez la commande suivante :
-
-
-git clone https://github.com/hackusman/collabo.git
-
-
-
-## 🛠️ Organisation & Collaboration
-
-Le projet a été initialisé par **hackusman**, qui a :
-
-* Créé le dépôt GitHub,
-* Défini la structure de base du projet (fichiers, dossiers, conventions),
-* Invité chaque membre de l’équipe au dépôt en tant que collaborateur.
-
-Chaque membre a ensuite :
-
-* Créé **sa propre branche Git**, nommée selon son pseudonyme ou sa section,
-* Travaillé de manière isolée sur sa partie, sans interférer avec les fichiers des autres,
-* Veillé à respecter les conventions de code et les objectifs graphiques communs.
-
-L'intégration finale a été réalisée via des **pull requests**, en validant soigneusement chaque contribution pour garantir une cohérence globale.
-
+---
 
 ## 📁 Structure du projet
 
-```bash
+```
 collabo/
 │
-├── css/style.css              # Feuilles de styles
-├── images/            # Images utilisées sur le site
-├── index.html         # Fichier HTML principal
-└── README.md          # Présentation du projet
+├── css/
+│   └── style.css          # Feuille de style globale
+│
+├── images/                # Dossier contenant toutes les images
+│
+├── index.html             # Page principale du site (landing page)
+│
+└── README.md              # Présentation et instructions du projet
 ```
+
+---
+
+## 🧱 Structure de `index.html`
+
+Voici la structure de base du fichier `index.html` à respecter **strictement** :
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Collabo - Déco Intérieure</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header id="header">
+    <!-- John98997615 : intégrer ici -->
+  </header>
+
+  <!-- ====== SECTION : Shop Home Must-Haves ====== -->
+  <section id="shop-home">
+    <!-- Corn7nelio : intégrer ici -->
+  </section>
+
+  <!-- ====== SECTION : Smart Solutions For Every Room ====== -->
+  <section id="smart-solutions">
+    <!-- cedric-228 : intégrer ici -->
+  </section>
+
+  <!-- ====== SECTION : What Our Essentials Are Special? ====== -->
+  <section id="essentials-specials">
+    <!-- cedric-228 : intégrer ici -->
+  </section>
+
+  <!-- ====== SECTION : Find Your Perfect Home Upgrade ====== -->
+  <section id="perfect-upgrade">
+    <!-- sebastienleAKPOTO : intégrer ici -->
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer id="footer">
+    <!-- Amiir22-24 : intégrer ici -->
+  </footer>
+
+</body>
+</html>
+```
+
+### 🔐 Règles :
+
+* N'ajoutez **aucune autre section** sans concertation.
+* Ne touchez pas aux sections des autres.
+* Vos **classes CSS** doivent être spécifiques pour éviter les conflits.
+* Si besoin d’un `div.wrapper`, utilisez vos propres identifiants ou classes.
+
+---
+
+## 🚀 Instructions de lancement (pour tester localement)
+
+```bash
+git clone https://github.com/hackusman/collabo.git
+cd collabo
+```
+
+Puis ouvrez le fichier `index.html` dans votre navigateur.
+
+---
+
+## 🔄 Processus Git à suivre
+
+### 1. Créez votre branche
+
+```bash
+git checkout -b votre-pseudo-nomsection
+```
+
+Ex : `git checkout -b john-header`
+
+### 2. Développez votre section uniquement
+
+Ajoutez votre code **dans la bonne balise** du `index.html`, et votre CSS dans `style.css`.
+
+### 3. Poussez vos changements
+
+```bash
+git add .
+git commit -m "Ajout section Header"
+git push origin votre-branche
+```
+
+### 4. Créez une Pull Request (PR) vers `main`
+
+L'intégration finale sera validée par **hackusman**.
