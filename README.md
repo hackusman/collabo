@@ -48,7 +48,7 @@ L'intégration finale a été réalisée via des **pull requests**, en validant 
 ## 📁 Structure du projet
 
 ```bash
-site-collabo/
+collabo/
 │
 ├── css/style.css              # Feuilles de styles
 ├── images/            # Images utilisées sur le site
