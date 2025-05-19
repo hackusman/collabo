@@ -24,7 +24,7 @@ Le projet a été réalisé **uniquement avec HTML et CSS**, sans aucun framewor
 Pour récupérer le projet en local, exécutez la commande suivante :
 
 
-git clone https://github.com/hackusman/site-collabo.git
+git clone https://github.com/hackusman/collabo.git
 
 
 
