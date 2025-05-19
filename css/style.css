@@ -1,0 +1,49 @@
+/* css/style.css */
+
+/* ============ 1. RESET & GLOBAL ============ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* ============ 2. HEADER ============ */
+/* John98997615 */
+#header {
+  /* Styles ici */
+}
+
+/* ============ 3. SHOP HOME MUST-HAVES ============ */
+/* Corn7nelio */
+#shop-home {
+  /* Styles ici */
+}
+
+/* ============ 4. SMART SOLUTIONS & ESSENTIALS ============ */
+/* cedric-228 */
+#smart-solutions {
+  /* Styles ici */
+}
+
+/* ============ 5. PERFECT HOME UPGRADE ============ */
+/* sebastienleAKPOTO */
+#perfect-upgrade {
+  /* Styles ici */
+}
+
+/* ============ 6. FOOTER ============ */
+/* Amiir22-24 */
+#footer {
+  /* Styles ici */
+}
+
+/* ============ 7. RESPONSIVE DESIGN ============ */
+@media (max-width: 768px) {
+  /* Adaptations mobiles */
+}
